@@ -1,0 +1,329 @@
+@import url('https://onesimplenergy.online/css2');
+@import url('https://onesimplenergy.online/css2-1');
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: #000;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: "Nunito", sans-serif;
+}
+.text-muted {
+    color: #9bacc4 !important;
+}
+.btn {
+    padding: 8px 20px;
+    transition: all 0.3s;
+    border-radius: 0px;
+    font-size: 16px;
+}
+.btn.btn-sm {
+    padding: 7px 16px;
+    font-size: 10px;
+
+}
+.alert-success {
+    
+    --bs-alert-bg: rgba(109, 199, 122, 0.9);
+    }
+.btn.btn-success {
+  background-color:#6fab12 ;
+  border-color: #6fab12 !important;
+}
+.text-success{
+    color: #6fab12 !important;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #00000059;
+}
+.title p{
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: 300;
+    color: #fff;
+    opacity: .2;
+}
+.navbar.fixed-top{
+    background-color: #000 !important;
+    transition: 2s;
+}
+/*Topbar Start*/
+.topbar{
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    transition: 1s;
+}
+.bg-soft-success {
+    background-color: rgba(46, 202, 139, 0.1) !important;
+    border: 1px solid rgba(46, 202, 139, 0.1) !important;
+    color: #2eca8b !important;
+}
+/*Navbar Start*/
+header{
+    position: relative;
+    z-index: 200;
+}
+.navbar-toggler{
+    background: #000;
+    border-radius: 50%;
+    padding: 9px 11px;
+    margin-right: 33px;
+}
+header .navbar-toggler, header .navbar-toggler:focus{
+    border: 0 !important;
+    box-shadow: none;
+}
+header .bar1, header .bar2, header .bar3 {
+    width: 19px;
+    height: 2px;
+    background-color: #7d7d7d;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+header .navbar-toggler i.fa{
+user-select: none;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform:rotate(-46deg) translate(-5px, 5px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+.offcanvas.offcanvas-end{
+    width: 350px;
+}
+.chk{    background: #22542d;/*#3a6b45*/
+    padding: 18px;
+    border-radius:9px;
+}
+.social-icon li a {
+ color: #9bacc4;
+    border: 1px solid #9bacc4;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    line-height: 28px;
+    text-align: center;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.cstatus{    position: absolute;
+    right: 231px;}
+/*Banner Start */
+@media (max-width: 996px){
+    
+.banner{
+    padding: 150px 0;
+    height: auto !important;
+        background-position: center;
+}
+}
+.banner{
+    background-image:url('../img/banner.jpg') ;
+    background-size: cover;
+    height: 600px;
+    margin-top: -116px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.section-title .title {
+    letter-spacing: 0.5px;
+    font-size: 30px !important;
+}
+.logo-wrapper{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.tab-content-header{
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.play-btn {
+    height: 78px;
+    width: 78px;
+    font-size: 30px;
+    line-height: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    color: #ffffff;
+}
+
+.btn.btn-purchase {
+    color: #ffffff !important;
+        border: 1px solid #dee2e6 !important;
+    background-color: #1f2d3d;
+    box-shadow: 0 3px 5px 0 rgb(31 45 61 / 30%);
+
+}
+.play-icon {
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+.play-icon i {
+    height: 75px;
+    -webkit-text-stroke: 2px #5aab12;
+    -webkit-text-fill-color: transparent;
+    width: 75px;
+    font-size: 25px;
+    line-height: 75px;
+    display: inline-block;
+}
+.embed-container {
+    position: relative;
+     padding-bottom: 56.25%; 
+     height: 0; 
+     overflow: hidden; 
+     max-width: 100%; 
+ }
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+}
+.bg-half-170{
+    background: url(../img/ownership%403x.html) center center / cover no-repeat;
+    padding: 170px 0;
+}
+.color-item img{
+    width: 24px;
+    height: 24px;
+}
+.color-item{
+    margin-right: 4px;
+    margin-bottom: 2px;
+    border-radius: 50%;
+}
+.color-wrapper {
+    display: inline-flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.footer .footer-bar, .footer .footer-border {
+    border-top: 1px solid #2a3c51;
+}
+
+.breadcrumb-banner{
+    background: url(../img/ola-scooter-color.jpg) center center / cover no-repeat;
+    padding: 170px 0;
+    position: relative;
+    margin-top:-66px;
+}
+.contact .form-control {
+    background: #1c2836;
+    border: 1px solid #2a3c51;
+    color: #adb5bd !important;
+    border-radius: 0;
+}
+.form-control { 
+    border-radius: 0;
+}
+.cover-user .cover-user-img {
+    height: 100vh;
+}
+@media (min-width: 1025px){
+.cover-user .cover-user-img {
+    padding: 0px 10%;
+}
+}
+#book img{
+    height: 100vh;
+        object-fit: cover;
+}
+.back-to-home {
+    position: fixed;
+    top: 4%;
+    right: 2%;
+    z-index: 100;
+}
+
+
+/*sticky-buttuns*/
+
+.sticky-mobile{
+    position: fixed;
+    bottom: 5px;
+    left: 20px;
+}
+.feedback {
+    background-color: #6fab12;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 0px;
+    border: 0;
+    box-shadow: none;
+    text-decoration: none;
+}
+.feedback:hover{
+    color: #fff;
+}
+
+#button {
+    display: inline-block;
+    background-color: #6fab12;
+    width: 40px;
+    height: 37px;
+    text-align: center;
+    /* border-radius: 0px; */
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+#button::after {
+    content: "\f176";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 41px;
+    color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+.ac-no{
+    text-align: center;
+     color: #5d5d5d !important;
+}
+.ac-no small{
+    font-size: 12px;
+   
+}
